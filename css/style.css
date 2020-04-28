@@ -1,0 +1,101 @@
+/* general */
+.content-container {
+  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-container p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  font-size: 11px;
+  line-height: 1.55em;
+}
+
+.content-container img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+img.hover:hover {opacity: 0.7;}
+
+#bio_contact,#home_page, #press, #papers
+{padding: 0px 0px 0px 0px;}
+
+
+/* home_page */
+#home_page {
+  max-height: 360px;
+  padding: 0px;
+}
+
+
+#home_page img {
+  opacity: .7;
+  max-width: 800px;
+  padding: 60px 0px 10px 0px;
+}
+
+/* works */
+#works img {
+  max-width: 500px;
+  padding: 30px 0px 30px 100px;
+}
+
+
+/* press
+#press .content-container {text-align: justify;}
+
+#press .content-container p {font-size: 11px;}
+*/
+
+/* research */
+
+#research ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.3em;
+}
+
+#research li{
+   padding-bottom: .8em;
+}
+
+#research img {
+  max-width: 400px;
+  padding: 0px 0px 0px 0px;
+}
+
+#research .video {
+  padding: 40px 0 20px 0;
+  text-align: center;
+}
+
+/* bio_contact */
+#bio_contact img {
+    padding-top: 0px;
+    max-width: 200px;
+}
+
+#bio_contact h2 {margin-bottom: .5em;}
+
+#bio_contact .content-container {text-align: justify;}
+
+#bio_contact ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.3em;
+}
+
+#bio_contact li{
+   padding-bottom: .3em;
+}
