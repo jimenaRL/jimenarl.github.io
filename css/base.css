@@ -97,11 +97,11 @@ audio{
 
 #exhibit .container {padding: 80px 9px 100px 80px;}
 
-#exhibit a {
+#exhibit a{
     font-style: italic;
 }
 
-#index a{
+#index a, #index p{
     letter-spacing: 4px;
     font-size:10px
 }
@@ -159,7 +159,7 @@ audio{
 
 #index ul {
   list-style: none;
-  margin: 0;
+  margin-bottom: 2em;
   font-size: 14px;
   padding: 0px;
   line-height: 2.4em;
