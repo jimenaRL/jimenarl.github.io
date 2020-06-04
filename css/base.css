@@ -107,6 +107,10 @@ audio{
     font-size:10px
 }
 
+#index p[class="il"]{
+    display: inline;
+} 
+
 #index a{
     transition: 0s;
 }
