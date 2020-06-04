@@ -6,5 +6,5 @@ Jimena Royo-Letelier website
 
 TO DO:
 
-- Make french version
-- Obras submenu
+- dynamic languages
+- works submenu
