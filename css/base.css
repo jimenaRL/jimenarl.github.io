@@ -107,7 +107,7 @@ audio{
     font-size:10px
 }
 
-#index p[class="il"]{
+#index p[class="inline"]{
     display: inline;
 } 
 
