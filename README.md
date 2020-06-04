@@ -6,5 +6,4 @@ Jimena Royo-Letelier website
 
 TO DO:
 
-- dynamic languages
 - works submenu
