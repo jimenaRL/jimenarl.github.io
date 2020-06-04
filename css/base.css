@@ -111,6 +111,13 @@ audio{
     display: inline;
 } 
 
+#index p[name="qindex"]{
+    display: inline;
+    letter-spacing: 4px;
+    line-height: 2.6em;
+    margin-left: 10px;
+}
+
 #index a{
     transition: 0s;
 }
@@ -165,6 +172,11 @@ audio{
   line-height: 2.4em;
 }
 
+#index ul.ul4collap{
+    display: none;
+    margin-bottom: 0.2em;
+    line-height: 2em;
+}
 
 @media only screen and (max-width: 768px) {
 

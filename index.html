@@ -15,7 +15,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
     <meta name="google-site-verification" content="hhYqz0y5mzHCnIliVkbKlziQNd607uCwdjc5jB5Uhd8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="translate.js"></script>
+	<script src="dynamic.js"></script>
 
 </head>
 
@@ -27,7 +27,16 @@
                 <h1 data-include="home_page">JIMENA ROYO-LETELIER</h1>
             </div>
             <ul>
-                <li><p data-include="works" name="pindex"></p></li>
+                <li>
+                    <p data-include="works" name="pindex" class="collapsible"></p>
+                    <ul class="ul4collap">
+                        <li><p data-include="murs_invisibles" name="qindex"></p></li>
+                        <li><p data-include="synchronisation" name="qindex"></p></li>
+                        <li><p data-include="immersion" name="qindex"></p></li>
+                        <li><p data-include="conversations" name="qindex"></p></li>
+                        <li><p data-include="glass_ceilings" name="qindex"></p></li>
+                    </ul>
+                </li>
                 <li><p data-include="research" name="pindex"></p></li>
                 <li><p data-include="bio_contact" name="pindex"></p></li>
             </ul>
