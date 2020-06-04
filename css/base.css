@@ -20,12 +20,13 @@ li.exhibit_title_active{
 a:link {text-decoration: none; color: #566D7E;}
 a {text-decoration: none; color: #566D7E;}
 a:hover {text-decoration : underline; color: #a4b4c1;}
-
+a:hover,  #index p:hover {text-decoration : underline; color: #a4b4c1;}
 
 h1 {
   font-size: 14px;
   margin-bottom: 2em;
   font-weight: bold;
+  letter-spacing: 4px;
 }
 
 h2 {

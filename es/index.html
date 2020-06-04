@@ -14,6 +14,15 @@
     <link rel='icon' type='image/png' href='../favicon.png'/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
     <meta name="google-site-verification" content="hhYqz0y5mzHCnIliVkbKlziQNd607uCwdjc5jB5Uhd8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("[data-include]").on("click", function(){
+            var file = $(this).data('include') + '.html';
+            $("#exhibit").load(file);
+          });
+        });
+    </script>
 </head>
 
 <body>
@@ -21,13 +30,12 @@
     <div id='index'>
         <div class='container'>
             <div class='top'>
-                <h1><a class="name" href='index.html'>JIMENA ROYO-LETELIER</a></h1>
+                <h1><a data-include="home_page" class="name">JIMENA ROYO-LETELIER</a></h1>
             </div>
             <ul>
-                <li><a href='index.html'></a></li>
-                <li><a href='works.html'>OBRAS</a></li>
-                <li><a href='research.html'>INVESTIGACIÓN</a></li>
-                <li><a href='bio_contact.html'>BIO - CONTACTO</a></li>
+                <li><p data-include='works'>OBRAS</p></li>
+                <li><p data-include='research'>INVESTIGACIÓN</p></li>
+                <li><p data-include='bio_contact'>BIO - CONTACTO</p></li>
             </ul>
             <p><a href='../fr/index.html'>FR</a>|<a href='../es/index.html'>ES</a></p>
         </div>
