@@ -20,16 +20,18 @@ li.exhibit_title_active{
 a:link {text-decoration: none; color: #566D7E;}
 a {text-decoration: none; color: #566D7E;}
 a:hover {text-decoration : underline; color: #a4b4c1;}
-
+a:hover,  #index p:hover, #index h1:hover {text-decoration : underline; color: #a4b4c1;}
 
 h1 {
-  font-size: 14px;
   margin-bottom: 2em;
   font-weight: bold;
+  letter-spacing: 2px;
+  font-size:12px
 }
 
 h2 {
   font-size: 13px;
+  letter-spacing: 4px;
   margin-bottom: 0em;
   font-weight: bold;
 }
@@ -106,15 +108,21 @@ audio{
     font-size:10px
 }
 
+#index p[class="inline"]{
+    display: inline;
+} 
+
+#index p[name="qindex"]{
+    display: inline;
+    letter-spacing: 4px;
+    line-height: 2.6em;
+    margin-left: 10px;
+}
+
 #index a{
     transition: 0s;
 }
 
-    
-#index a.name{
-    letter-spacing: 2px;
-    font-size:12px
-}
 
 #exhibit hr {
     display: block;
@@ -165,6 +173,11 @@ audio{
   line-height: 2.4em;
 }
 
+#index ul.ul4collap{
+    display: none;
+    margin-bottom: 0.2em;
+    line-height: 2em;
+}
 
 @media only screen and (max-width: 768px) {
 
