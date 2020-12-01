@@ -5,7 +5,7 @@ function getLangResources(){
     var es = new Array();
     var fr = new Array();
 
-    es['works'] = "OBRAS"; 
+    es['works'] = "INSTALACIONES"; 
     es['research'] = "INVESTIGACIÓN"; 
     es['bio_contact'] = "BIO - CONTACTO";
     es['murs_invisibles'] = 'Muros Invisibles'
@@ -14,7 +14,7 @@ function getLangResources(){
     es['conversations'] = 'Conversaciones'
     es['glass_ceilings'] = 'Glass Ceilings'
     
-    fr['works'] = "CRÉATION"; 
+    fr['works'] = "INSTALLATIONS"; 
     fr['research'] = "RECHERCHE"; 
     fr['bio_contact'] = "BIO - CONTACT";
     fr['murs_invisibles'] = 'Murs Invisibles'
